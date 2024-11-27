@@ -58,8 +58,8 @@ app.post('/api/process-image', upload.single('image'), async (req, res) => {
 });
 
 app.get('/', (req, res)=>{
-  res.send("hello");
+  res.send("hello world");
 })
-
+  
 // Start server
 app.listen(port, () => console.log(`Server running on http://localhost:${port}`));
